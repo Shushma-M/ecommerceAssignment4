@@ -1,0 +1,79 @@
+.address-list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    color: black;
+}
+
+.address-item {
+    display: flex;
+    align-items: flex-start;
+    padding: 16px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.address-item input[type="radio"] {
+    margin-right: 16px;
+}
+
+.address-item:hover {
+    background-color: #f9f9f9;
+}
+
+.address-item label {
+    cursor: pointer;
+}
+
+.address-item h3 {
+    margin: 0 0 8px 0;
+}
+
+.address-item p {
+    margin: 0;
+}
+
+.checkout-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.address-list-container {
+    flex: 1;
+    margin-right: 370px;
+}
+
+.cart-summary {
+    position: fixed;
+    top: 220px;  
+    right: 20px;
+    width: 300px;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+}
+
+.add-button {
+    margin-top: 20px;
+}
+
+.modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.address-form {
+    width: 400px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+}
